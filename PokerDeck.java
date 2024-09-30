@@ -36,7 +36,7 @@ class Card {
         return rank;
     }
 
-    // Sobrescribir equals y hashCode para evitar duplicados en un Set
+   
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
